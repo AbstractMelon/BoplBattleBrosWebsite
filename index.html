@@ -1,0 +1,76 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bopl Battle Bros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+        <h1>Battle Bros</h1>
+        <p>Welcome to Bopl Battle Bros, a competitive Bopl Battle server accessible to anyone. We have a current 1v1 tournament going on till April 1st. You can sign up for this tournament anytime. After signing up will be giving matches on the following Monday.  </p>
+    
+        <div class="cta-buttons">
+          <a href="pages/login.html">Login</a>
+          <a href="pages/signup.html">Sign Up</a>
+        </div>
+    
+        <div class="news-section">
+          <h2>News</h2>
+          <p>Stay updated with the latest happenings in our community. Check out the news section for announcements and exciting updates!</p>
+          <a href="pages/news.html">Read More</a>
+        </div>
+    
+        <div class="calendar-section">
+          <h2>Upcoming Events</h2>
+          <p>Join us for upcoming events and tournaments. View the calendar to stay informed about scheduled matches and competitions.</p>
+          <a href="pages/calendar.html">Explore Events</a>
+        </div>
+    
+        <div class="stats-section">
+          <h2>Player Stats</h2>
+          <p>Track your gaming progress and compare stats with fellow players. Visit the stats page to see your achievements and rankings.</p>
+          <a href="pages/stats.html">View Stats</a>
+        </div>
+    
+        <div class="discord-section">
+          <h2>Join Our Discord</h2>
+          <p>Connect with the Bopl Battle Bros community on Discord. Chat, share strategies, play casual, and stay in the loop with real-time discussions.</p>
+          <a href="https://discord.gg/sEUYWpZxna">Join Now</a>
+        </div>
+    
+        <div class="about-section">
+          <h2>About Us</h2>
+          <p>Discover more about Bopl Battle Bros. Learn about our ELO System, community rules, and the exciting journey we've embarked upon together.</p>
+          <a href="pages/info.html">Learn More</a>
+        </div>
+      </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBoKhTWti8w0qmOIt1Ra6GM1e6DVpFF24U",
+          authDomain: "boplbattlebros.firebaseapp.com",
+          projectId: "boplbattlebros",
+          storageBucket: "boplbattlebros.appspot.com",
+          messagingSenderId: "684464181469",
+          appId: "1:684464181469:web:8cf483607b03092628cb34",
+          measurementId: "G-D033CHKH6V"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+  </div>
+</body>
