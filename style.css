@@ -33,7 +33,7 @@ body {
 }
 
 .container:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 h1, h2 {
