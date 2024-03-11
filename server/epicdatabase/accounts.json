@@ -1,0 +1,292 @@
+{
+    "accounts": [
+      {
+        "name": "TheHammer",
+        "elo": 208,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "lazerjoe",
+        "elo": 202,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "gorlock-gaggle",
+        "elo": 178,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "vryllon",
+        "elo": 168,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "oli",
+        "elo": 166,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "savaGe",
+        "elo": 160,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "FriendlyFire",
+        "elo": 146,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "Aced-It",
+        "elo": 142,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "juji",
+        "elo": 140,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "darkstar",
+        "elo": 140,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "catnip",
+        "elo": 136,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "saferean",
+        "elo": 132,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "somatic",
+        "elo": 130,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "zaglag",
+        "elo": 120,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "vexxus",
+        "elo": 120,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "random",
+        "elo": 120,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "cheesebot",
+        "elo": 114,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "cram",
+        "elo": 102,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "The Wise Hero",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "Slender",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "Fej",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "EtasPeacfullGarden",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "eegar",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "Comrades",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "Chaos",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "Boplers",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "Andrei",
+        "elo": 100,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "mt",
+        "elo": 90,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "manosfusion88",
+        "elo": 70,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "kl0man",
+        "elo": 64,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "jacko-man",
+        "elo": 54,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "the-skibidi-ganstahs",
+        "elo": 40,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "bopl-bros",
+        "elo": 32,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "1v1",
+        "elo": 20,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "scoffled",
+        "elo": 0,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      },
+      {
+        "name": "baller",
+        "elo": 0,
+        "wins": null,
+        "losses": null,
+        "team": null,
+        "rank": null
+      }
+    ]
+}  

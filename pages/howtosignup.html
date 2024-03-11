@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
-    <link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Page</title>
+  <link rel="stylesheet" href="./tinypagesstyle.css">
+  <style>
+        .code-box {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      overflow: auto;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('../bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    }
+  </style>
 </head>
 <body>
-    <h1>Create a user</h1>
-    <p>Create a user</p>
-    <p>Go to #bots inside the discord</p>
+  <div class="wrapper">
+    <div class="container">
+      <div class="navbar">
+        <h1>How to sign up!</h1>
+      </div>
+      
+      <div class="news-segment">
+        <h2>Create a User</h2>
+        <p>
+          To create a user, go to the #bots channel in Discord and type the following command:
+        </p>
+        <div class="code-box">
+            <code>/createuser</code>
+        </div>
+        <p>
+          This command will automatically generate a user for you.
+        </p>
+      
+        <h2>Create a Team</h2>
+        <p>
+          To create a team, go to the #bots channel in Discord and type the following command:
+          <div class="code-box">
+            <code>/jointournament TeamName</code>
+          </div>
+          <br>
+          Replace "TeamName" with the desired name for your team. This command will automatically generate a user and associate it with the specified team.
+        </p>
+        <a href="./signup.html">Go to discord!</a>
+      </div>
+      
+      <div class="news-segment">
+        <h1>Method 2</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis sit amet elit scelerisque malesuada. Nulla facilisi.</p>
+        <a href="./signup.html">Go to Signup page</a>
+      </div>
 
-    Type /createuser to automatically generate a user
-
-Create a team
-
-     Go to #bots inside the discord
-
-    Type /jointournament(Team Name) to automatically generate a user
+    </div>
+  </div>
 </body>
 </html>
