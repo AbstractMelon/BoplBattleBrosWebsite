@@ -18,16 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
         body: JSON.stringify({ email, password }),
       });
 
+      const data = await response.json();
+
       if (response.ok) {
-        console.log('Account created successfully');
-        // Redirect or perform other actions on success
+        alert(data.message);
+        // Redirect to login page or do something else
       } else {
-        const data = await response.json();
-        console.error(data.error);
-        // Handle error, e.g., display an error message to the user
+        alert(`Error: ${data.error}`);
       }
     } catch (error) {
-      console.error('An unexpected error occurred:', error);
+      console.error('Error during signup:', error);
     }
   });
 });
