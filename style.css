@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow-y: auto;
+  margin-top: 20px;
 }
 
 .wrapper {
