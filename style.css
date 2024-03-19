@@ -1,60 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+/* style.css */
 
 body {
-  height: 100vh;
-  width: 100vw;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #000033; /* Dark blue */
-  color: white;
-  font-family: 'Archivo Black', sans-serif;
+  justify-content: center;
+  overflow-y: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
 }
 
 .container {
-  text-align: center;
-  padding: 40px;
-  background-color: #000000; /* Black */
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  padding: 40px 20px;
   width: 80%;
-  max-width: 500px;
+  max-width: 800px;
+  background-color: rgba(0, 5, 63, 0.763); /* Light sky blue background color */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease-in-out;
+  
 }
 
-header {
-  color: #fff;
+.container:hover {
+  transform: scale(1.01);
+}
+
+h1, h2 {
+  color: #00ffee; /* Lime green text color */
   margin-bottom: 20px;
+  transition: color 0.3s ease;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-width: 10;
+}
+p {
+  color: #00a2ff;
 }
 
-footer {
-  color: #ddd;
+a {
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  padding: 15px 30px;
+  background-color: #00ff9d; /* Light sky blue color for buttons */
+  color: #000000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #4682b4; /* Darker sky blue on hover */
+}
+
+.navbar {
+  background-color: #32cd32; /* Lime green background color for the navbar */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #87cefa;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+}
+
+.signup-form {
   margin-top: 20px;
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 10px;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-.projects-grid li {
-  border: 2px solid #333; /* Dark blue */
-  border-radius: 10px;
-}
-
-.projects-grid li a {
-  display: block;
+.signup-box {
+  background-color: rgba(173, 216, 230, 0.7); /* Light sky blue semi-transparent background for the box */
   padding: 20px;
-  color: #fff;
-  text-decoration: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
 }
 
-.projects-grid li a:hover {
-  background-color: #171717; /* Dark grey */
-  transform: scale(1.15);
+.signup-box:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.signup-box label {
+  display: block;
+  margin-bottom: 10px;
+  color: #32cd32;
+  font-size: 16px;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #32cd32;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.signup-box button {
+  width: 100%;
+  padding: 15px;
+  background-color: #87cefa; /* Light sky blue color for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-box button:hover {
+  background-color: #4682b4; /* Darker sky blue on hover */
 }
